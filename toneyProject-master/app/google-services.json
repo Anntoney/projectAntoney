@@ -1,0 +1,197 @@
+{
+  "project_info": {
+    "project_number": "158879209008",
+    "firebase_url": "https://fir-cloudmessaging-a4315.firebaseio.com",
+    "project_id": "fir-cloudmessaging-a4315",
+    "storage_bucket": "fir-cloudmessaging-a4315.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158879209008:android:e2d22d292f07a3ce",
+        "android_client_info": {
+          "package_name": "com.inducesmile.firebasecloudmessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158879209008-d6hqr3d088dn6nkv0kfnd6bh7gnflk33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATwnXxqTDrSn08HzjhcXyze_NMGxUiKFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158879209008:android:ca82817353a6cc4a",
+        "android_client_info": {
+          "package_name": "com.inducesmile.androidwebviewtowebsite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158879209008-d6hqr3d088dn6nkv0kfnd6bh7gnflk33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATwnXxqTDrSn08HzjhcXyze_NMGxUiKFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158879209008:android:dce5cd22432d760f",
+        "android_client_info": {
+          "package_name": "com.inducesmile.androidtopicmessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158879209008-d6hqr3d088dn6nkv0kfnd6bh7gnflk33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATwnXxqTDrSn08HzjhcXyze_NMGxUiKFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158879209008:android:dcd99dbb88b1cb6c",
+        "android_client_info": {
+          "package_name": "com.inducesmile.androidnewsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158879209008-d6hqr3d088dn6nkv0kfnd6bh7gnflk33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATwnXxqTDrSn08HzjhcXyze_NMGxUiKFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158879209008:android:d909f0ba96b17fe3",
+        "android_client_info": {
+          "package_name": "com.inducesmile.androidfoodordering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158879209008-d6hqr3d088dn6nkv0kfnd6bh7gnflk33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATwnXxqTDrSn08HzjhcXyze_NMGxUiKFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158879209008:android:df0b7be367bce111",
+        "android_client_info": {
+          "package_name": "com.inducesmile.androidecommerceshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158879209008-d6hqr3d088dn6nkv0kfnd6bh7gnflk33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATwnXxqTDrSn08HzjhcXyze_NMGxUiKFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

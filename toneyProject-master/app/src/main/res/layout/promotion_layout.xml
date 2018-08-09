@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_180sdp"
+    android:background="@color/colorBlue"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginBottom="@dimen/_1sdp"
+    android:padding="@dimen/_8sdp">
+
+    <ImageView
+        android:id="@+id/promotion_product"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:contentDescription="@string/app_name"
+        android:adjustViewBounds="true"
+        android:src="@drawable/hat"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/promotion_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:text="@string/inspire_hat"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textSize="@dimen/_20sdp"/>
+
+    <TextView
+        android:id="@+id/promotion_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/promotion_price"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:textSize="@dimen/_14sdp"/>
+
+</LinearLayout>

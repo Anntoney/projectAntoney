@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_option"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tangobackground"
+    tools:context="com.inducesmile.androidecommerceshop.LoginOptionActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_110sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="156dp"
+        android:src="@drawable/tango"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="91dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/sign_in"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="@string/sign_in"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_12sdp" />
+
+        <Button
+            android:id="@+id/sign_up"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:text="@string/sign_up"
+            android:textSize="@dimen/_12sdp"
+            android:background="@color/colorAccent"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

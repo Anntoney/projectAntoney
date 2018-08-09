@@ -1,0 +1,101 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.inducesmile.androidecommerceshop.fragment.AllFragment">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/vegetables" />
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            card_view:cardElevation="@dimen/_2sdp"
+            card_view:cardUseCompatPadding="true">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:focusable="false"
+                android:hint="@string/search_hint"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="@dimen/_12sdp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorLight" />
+
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_gravity="center"
+            android:background="@color/colorLight" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:text="@string/featured_products"
+            android:textColor="@color/colorLight"
+            android:textSize="@dimen/_13sdp" />
+
+        <View
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_gravity="center"
+            android:background="@color/colorLight" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/featured_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:orientation="vertical"
+            android:scrollbars="none" />
+
+        <View
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_gravity="center"
+            android:background="@color/colorLight" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:text="@string/featured_products"
+            android:textColor="@color/colorLight"
+            android:textSize="@dimen/_13sdp" />
+
+        <View
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_gravity="center"
+            android:background="@color/colorLight" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

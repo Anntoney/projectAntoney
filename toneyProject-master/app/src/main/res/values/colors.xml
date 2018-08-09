@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#228B22</color>
+    <color name="colorPrimaryDark">#228B22</color>
+    <color name="colorAccent">#228B22</color>
+    <color name="colorBlue">#367e90</color>
+    <color name="colorOpposite">#60c002</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLight">#7F7F7F</color>
+    <color name="colorBorder">#e6e3e2</color>
+
+    <color name="promotion_blue">#367e90</color>
+    <color name="promotion_red">#00FA9A</color>
+    <color name="promotion_ivory">#00FA9A</color>
+    <color name="priceColor">#f4f707</color>
+    <color name="discountColor">#228B22</color>
+
+    <!-- Light Blue -->
+    <color name="material_light_blue_500">#38a4dc</color>
+    <color name="material_light_blue_50">#e1f3fd</color>
+    <color name="material_light_blue_100">#b4e3fa</color>
+    <color name="material_light_blue_200">#83d2f5</color>
+    <color name="material_light_blue_300">#57c1ee</color>
+    <color name="material_light_blue_400">#43b3e6</color>
+    <color name="material_light_blue_600">#2c97d4</color>
+    <color name="material_light_blue_700">#1a87c8</color>
+    <color name="material_light_blue_800">#0277bd</color>
+    <color name="material_light_blue_900">#00579b</color>
+    <color name="material_light_blue_A100">#85d5f7</color>
+    <color name="material_light_blue_A200">#56c0ed</color>
+    <color name="material_light_blue_A400">#44a9df</color>
+    <color name="material_light_blue_A700">#398bca</color>
+
+    <!-- Cyan -->
+    <color name="material_cyan_500">#09bcd3</color>
+    <color name="material_cyan_50">#e1f2f7</color>
+    <color name="material_cyan_100">#b6e2eb</color>
+    <color name="material_cyan_200">#88d3e1</color>
+    <color name="material_cyan_300">#5ac7d9</color>
+    <color name="material_cyan_400">#35c1d6</color>
+    <color name="material_cyan_600">#00abc0</color>
+    <color name="material_cyan_700">#0297a7</color>
+    <color name="material_cyan_800">#00838f</color>
+    <color name="material_cyan_900">#016064</color>
+    <color name="material_cyan_A100">#9cd9e5</color>
+    <color name="material_cyan_A200">#70ccdd</color>
+    <color name="material_cyan_A400">#5dc9e7</color>
+    <color name="material_cyan_A700">#00b7d3</color>
+
+    <!-- Teal -->
+    <color name="material_teal_500">#009688</color>
+    <color name="material_teal_50">#e0f1f0</color>
+    <color name="material_teal_100">#b2dfdb</color>
+    <color name="material_teal_200">#7fcac3</color>
+    <color name="material_teal_300">#4cb5ab</color>
+    <color name="material_teal_400">#24a699</color>
+    <color name="material_teal_600">#03897b</color>
+    <color name="material_teal_700">#00796b</color>
+    <color name="material_teal_800">#00695c</color>
+    <color name="material_teal_900">#004d40</color>
+    <color name="material_teal_A100">#b3dfd9</color>
+    <color name="material_teal_A200">#89cfc2</color>
+    <color name="material_teal_A400">#62c2a6</color>
+    <color name="material_teal_A700">#24b9a2</color>
+
+    <!-- Green -->
+    <color name="material_green_500">#4cae4e</color>
+    <color name="material_green_50">#e9f4e9</color>
+    <color name="material_green_100">#c8e4c9</color>
+    <color name="material_green_200">#a4d5a6</color>
+    <color name="material_green_300">#81c784</color>
+    <color name="material_green_400">#66bb6a</color>
+    <color name="material_green_600">#42a046</color>
+    <color name="material_green_700">#378e43</color>
+    <color name="material_green_800">#307d3d</color>
+    <color name="material_green_900">#1e5e2f</color>
+    <color name="material_green_A100">#bee0c2</color>
+    <color name="material_green_A200">#84caa0</color>
+    <color name="material_green_A400">#5bbc6b</color>
+    <color name="material_green_A700">#40b654</color>
+</resources>
+

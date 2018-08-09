@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inducesmile.androidecommerceshop.NewAddressActivity">
+
+    <Button
+        android:id="@+id/save_new_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/promotion_blue"
+        android:padding="@dimen/_16sdp"
+        android:text="@string/save_new_address"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:id="@+id/activity_new_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:text="@string/your_primary_address"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_14sdp"/>
+
+        <TextView
+            android:id="@+id/primary_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nygatan_20_lund_sweden"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:textSize="@dimen/_12sdp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginBottom="@dimen/_6sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@color/promotion_blue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_32sdp"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:text="@string/add_new_delivery_address"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_14sdp"/>
+
+        <EditText
+            android:id="@+id/street_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/border"
+            android:hint="@string/street"
+            android:textColorHint="@color/colorLight"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="@dimen/_12sdp"
+            android:textColor="@color/colorBlack" />
+
+        <EditText
+            android:id="@+id/zip_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/border"
+            android:hint="@string/zip_code"
+            android:textColorHint="@color/colorLight"
+            android:inputType="textPostalAddress"
+            android:maxLines="1"
+            android:padding="@dimen/_12sdp"
+            android:textColor="@color/colorBlack" />
+
+        <EditText
+            android:id="@+id/country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/border"
+            android:hint="@string/country"
+            android:textColorHint="@color/colorLight"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="@dimen/_12sdp"
+            android:textColor="@color/colorBlack" />
+
+    </LinearLayout>
+
+</RelativeLayout>

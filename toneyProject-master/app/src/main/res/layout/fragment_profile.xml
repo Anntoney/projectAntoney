@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.inducesmile.androidecommerceshop.fragment.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/_40sdp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/profilebg">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_110sdp"
+            android:src="@drawable/tango"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:text="@string/maggi_jonhson"
+        android:textColor="@color/colorBlack"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/profile_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:text="@string/nygatan_20_lund_sweden"
+        android:layout_gravity="center"
+        android:textColor="@color/colorLight"
+        android:textSize="@dimen/_12sdp"/>
+
+    <Button
+        android:id="@+id/edit_profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_24sdp"
+        android:text="@string/edit_profile"
+        android:textColor="@color/colorLight"
+        android:textSize="@dimen/_11sdp"
+        android:background="@drawable/border"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/colorBorder"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:text="@string/help_us_get_the_word_out_to_friends_and_families"
+        android:textStyle="italic"
+        android:textColor="@color/colorLight"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_13sdp"/>
+
+
+
+</LinearLayout>

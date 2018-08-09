@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tangobackground"
+    tools:context="com.inducesmile.androidecommerceshop.fragment.CasualFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:text=" "
+        android:textColor="@color/colorLight"
+        android:textSize="@dimen/_13sdp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/men_hat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:orientation="vertical"
+        android:scrollbars="none" />
+
+</LinearLayout>
